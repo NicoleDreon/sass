@@ -32,8 +32,8 @@ a {
 }
 
 #header {
-  border-radius: 6px;
-  border: 1px solid #333;
+  border-radius: 8px;
+  border: 1px solid #999;
   height: 60px;
   background-color: #170a48;
 }
