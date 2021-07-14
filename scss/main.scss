@@ -31,6 +31,7 @@ a {
 
 #header {
   @include box(8px, 1px solid #999);
+  @include box-shadow(2px 0px 4px #999, 1px 1px 6px $secondary-color);
   height: $header-heigth;
   background-color: $theme-color;
 
