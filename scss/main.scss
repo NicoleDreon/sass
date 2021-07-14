@@ -1,5 +1,8 @@
-@import "partials/variables";
-@import "partials/mixins";
+@import "variables";
+@import "mixins";
+
+@include google-fonts("Alegreya+Sans");
+@include google-fonts("Titillium+Web");
 
 @include fancy-links;
 
