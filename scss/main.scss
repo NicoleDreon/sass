@@ -12,6 +12,24 @@
   }
 }
 
+@mixin rounded {
+  border-radius: 6px;
+}
+
+@mixin box {
+  @include rounded;
+  border: 1px solid #333;
+}
+
+@mixin fancy-links {
+  a {
+    font-style: italic;
+    text-decoration: none;
+  }
+}
+
+@include fancy-links;
+
 body {
   font-family: $text-font;
   color: $text-color;
@@ -39,6 +57,7 @@ a {
 }
 
 #header {
+  @include box;
   height: $header-heigth;
   background-color: $theme-color;
 
