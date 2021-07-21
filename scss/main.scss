@@ -8,6 +8,13 @@
   }
 }
 
+$speakers: bob-banker, patty-plum, snadra-smith;
+@each $speaker in $speakers {
+  .#{$speaker}-profile {
+    background-image: url('/img/#{$speaker}png');
+  }
+}
+
 @include google-fonts("Alegreya+Sans");
 @include google-fonts("Titillium+Web");
 

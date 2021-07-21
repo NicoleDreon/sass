@@ -24,6 +24,18 @@
   width: 12em;
 }
 
+.bob-banker-profile {
+  background-image: url("/img/bob-bankerpng");
+}
+
+.patty-plum-profile {
+  background-image: url("/img/patty-plumpng");
+}
+
+.snadra-smith-profile {
+  background-image: url("/img/snadra-smithpng");
+}
+
 a {
   font-style: italic;
   text-decoration: none;
