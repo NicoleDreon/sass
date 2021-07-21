@@ -109,8 +109,16 @@ a {
       border-bottom: 1px dashed #999;
 
       &:hover {
-        background-color: #efefef;
-      }
+        @if $theme == Dark {
+          background-color: #efefef;
+          color: black;
+        } @else if $theme == Light {
+          background-color: #efefef;
+        } @else {
+          background-color: #efefef;
+        }
+        
+      } 
     }
   }
 }

@@ -8,8 +8,8 @@ a {
 body {
   font-family: "Alegreya Sans", Arial, sans-serif;
   font-size: 1.125em;
-  color: #222;
-  background-color: #fff;
+  color: #fff;
+  background-color: #22222a;
 }
 
 @media only screen and (max-width: 960px) {
@@ -32,11 +32,11 @@ p {
 }
 
 a {
-  color: #f27731;
+  color: #c24721;
 }
 
 a:hover {
-  color: #ca510d;
+  color: #812f16;
 }
 
 .warning-button, .cta-button {
@@ -61,11 +61,11 @@ a:hover {
 #header {
   border-radius: 8px;
   border: 1px solid #999;
-  box-shadow: 2px 0px 4px #999, 1px 1px 6px #f27731;
-  -moz-box-shadow: 2px 0px 4px #999, 1px 1px 6px #f27731;
-  -webkit-box-shadow: 2px 0px 4px #999, 1px 1px 6px #f27731;
+  box-shadow: 2px 0px 4px #999, 1px 1px 6px #c24721;
+  -moz-box-shadow: 2px 0px 4px #999, 1px 1px 6px #c24721;
+  -webkit-box-shadow: 2px 0px 4px #999, 1px 1px 6px #c24721;
   height: 60px;
-  background-color: #170a48;
+  background-color: #42424a;
 }
 
 #header #main-menu li {
@@ -84,7 +84,7 @@ a:hover {
 
 #header #main-menu a:hover {
   border-bottom: 1px solid #fefefe;
-  color: #ca510d;
+  color: #812f16;
 }
 
 #main {
@@ -118,5 +118,6 @@ a:hover {
 
 #main #sidebar li:hover {
   background-color: #efefef;
+  color: black;
 }
 /*# sourceMappingURL=main.css.map */
