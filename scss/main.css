@@ -36,6 +36,22 @@
   background-image: url("/img/snadra-smithpng");
 }
 
+.tiny {
+  font-size: 8px;
+}
+
+.small {
+  font-size: 11px;
+}
+
+.medium {
+  font-size: 13px;
+}
+
+.large {
+  font-size: 18px;
+}
+
 a {
   font-style: italic;
   text-decoration: none;

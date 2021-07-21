@@ -15,6 +15,13 @@ $speakers: bob-banker, patty-plum, snadra-smith;
   }
 }
 
+$font-sizes: (tiny: 8px, small: 11px, medium: 13px, large: 18px);
+  @each $name, $size in $font-sizes {
+    .#{$name} {
+      font-size: $size;
+    }
+  }
+
 @include google-fonts("Alegreya+Sans");
 @include google-fonts("Titillium+Web");
 
